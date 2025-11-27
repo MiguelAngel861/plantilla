@@ -1,0 +1,33 @@
+{
+    "name": "Connecticut",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {},
+    "customizations":  {
+        "vscode": 
+        {
+            "extensions": 
+            [
+                "PKief.material-icon-theme",
+                "usernamehw.errorlens",
+                "enkia.tokyo-night",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "miguelsolorio.fluent-icons",
+                "ms-azuretools.vscode-containers"
+            ],
+            "settings": 
+            {
+                "terminal.integrated.cursorStyle": "line",
+                "terminal.integrated.cursorBlinking": true,
+                "workbench.sideBar.location": "right",
+                "explorer.compactFolders": false,
+                "window.menuBarVisibility": "toggle",
+                "workbench.colorTheme": "Tokyo Night",
+                "workbench.iconTheme": "material-icon-theme",
+                "workbench.productIconTheme": "fluent-icons"
+            }
+        }
+    }
+}
